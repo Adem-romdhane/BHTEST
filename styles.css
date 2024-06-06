@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.images {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.logo {
+    width: 200px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 50px; /* Ajustez la hauteur selon vos besoins */
+}
+
+.header-text {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: #4CAF50; 
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #ced4da;
+}
+
+.box {
+    display: flex;
+  }
+  
+  .one {
+    flex: 1 1 auto;
+  }
+  
+  .two {
+    flex: 1 1 auto;
+  }
+  
+  .three {
+    flex: 1 1 auto;
+  }
+
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    margin-bottom: 10px;
+    color: green; /* Couleur verte pour les éléments <p> */
+}
+
+/* Styles pour la boîte */
+.box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box div {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.bouton {
+    text-align: center;
+    padding: 20px;
+    background-color: aqua;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
